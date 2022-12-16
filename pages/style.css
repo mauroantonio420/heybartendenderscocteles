@@ -22,15 +22,15 @@ section{
 }
 ul{
   justify-content: flex-end;
-  
+
 }
 ul li{
   text-decoration: none;
 }
 
 nav{
-  background-color: #276955;
-  
+  background-color: #276955; 
+
 }
 
 nav ul{
@@ -39,8 +39,6 @@ nav ul{
   display: flex;
   
 }
-
-
 
 nav ul li a{ 
   display: block;
@@ -143,3 +141,10 @@ a:hover{
   
 }
 
+@media screen and (min-width 480px ) {
+
+}
+
+@media screen  and (min-width 1024px ) {
+  
+}
