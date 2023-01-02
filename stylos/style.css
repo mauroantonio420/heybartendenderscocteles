@@ -152,9 +152,7 @@ a:hover{
   @media screen and (min-width: 480px ) {
     .navegacion{
       padding: 0;
-      display:flex;
-      flex-direction: column;
-      text-align: center;
+      
     
     }
     article{
@@ -195,6 +193,9 @@ a:hover{
   width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body{
   width: 100%;
