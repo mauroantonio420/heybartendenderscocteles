@@ -19,6 +19,7 @@ section{
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  padding: 0%;
 }
 ul{
   justify-content: flex-end;
@@ -146,9 +147,11 @@ a:hover{
       display:flex;
       flex-direction: column;
       text-align: center;
+      padding: 0;
     
     }
     article{
+      padding: 0%;
       flex-direction: column;
       text-align: center;
     }
@@ -159,6 +162,7 @@ a:hover{
     justify-content: center;
     flex-direction: row;
     text-align:center;
+    padding: 0;
 
   
   
@@ -171,6 +175,7 @@ a:hover{
 
 @media screen and (min-width: 850px){
   .navegacion{
+    padding: 0%;
     justify-content: flex-end;
     flex-direction: row;
     align-content: flex-end;
