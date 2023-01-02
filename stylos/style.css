@@ -143,6 +143,7 @@ a:hover{
 
   @media screen and (min-width: 480px ) {
     .navegacion{
+      padding: 0;
       display:flex;
       flex-direction: column;
       text-align: center;
@@ -155,7 +156,8 @@ a:hover{
 }
 
 @media screen and (min-width: 720px ) {
-  .navegacion{ 
+  .navegacion{
+    padding: 0; 
     justify-content: center;
     flex-direction: row;
     text-align:center;
@@ -171,6 +173,7 @@ a:hover{
 
 @media screen and (min-width: 850px){
   .navegacion{
+    padding: 0;
     justify-content: flex-end;
     flex-direction: row;
     align-content: flex-end;
