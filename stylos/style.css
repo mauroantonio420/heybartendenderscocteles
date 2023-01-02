@@ -45,7 +45,7 @@ nav ul li a{
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 0;
   
 }
 
@@ -111,7 +111,7 @@ article{
   color: white;
   text-align: center;
   font-size: 25px;
-  padding-block-start: 0;
+  padding:0%;
 
 }
 
