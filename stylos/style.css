@@ -45,7 +45,7 @@ nav ul li a{
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: 10px;
   
 }
 
@@ -111,10 +111,13 @@ article{
   color: white;
   text-align: center;
   font-size: 25px;
-  padding:0%;
+  padding-block-start: 10%;
 
 }
-
+.wrapper{
+  margin: 0%;
+  padding: 0%;
+}
 
 .contacto{
   background: green;
