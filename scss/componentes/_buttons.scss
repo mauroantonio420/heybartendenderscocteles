@@ -1,0 +1,12 @@
+@import "../utilities/color";
+
+.contacto{
+    background: $sextiario;
+    border-radius: 35px;
+    color: $secundario
+    
+}
+&:a:hover{
+    background: $septiario;
+    padding: 8px;
+}

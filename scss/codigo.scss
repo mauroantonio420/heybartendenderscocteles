@@ -1,0 +1,176 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@import"../utilities/color";
+
+
+@media screen and (min-width: 720px ) {
+    .navegacion{
+    padding: 0; 
+    justify-content: center;
+    flex-direction: row;
+    text-align:center;
+    }
+    article{
+    flex-direction: column;
+    text-align: center; 
+    }
+}
+
+
+@media screen and (min-width: 720px ) {
+.navegacion{
+    padding: 0; 
+    justify-content: center;
+    flex-direction: row;
+    text-align:center;
+    }
+    article{
+    flex-direction: column;
+    text-align: center; 
+    }
+}
+
+@media screen and (min-width: 850px){
+.navegacion{
+    padding: 0;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: flex-end;
+    }
+    article{
+    flex-direction: row;
+    }
+}
+
+@import "../utilities/color";
+
+.soyunfooter{
+    color: $primario;
+    background: $octario;
+    position:relative;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@import "../utilities/color";
+body{
+    background-color: $primario;
+    color: $secundario;
+}
+html {
+    color: white;
+    background-color:white;
+    font-size: 18px;
+}
+@mixin section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+@import "../utilities/color";
+
+header {
+    background-color: $secundario;
+    
+
+    nav{
+        background-color: $terciario;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+    }
+    nav ul li a{ 
+        display: block;
+        text-decoration: none;
+        color: $secundario;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    
+    nav ul li a:hover{ 
+        background-color: $cuartiario;
+        
+    }
+
+}
+@import "../utilities/color";
+
+.contacto{
+    background: $sextiario;
+    border-radius: 35px;
+    color: $secundario;
+    
+}
+a:hover{
+    background: $septiario;
+    padding: 8px;
+}
+
+@import "../utilities/color";
+
+h1{
+    text-align: center;
+    margin: 0px 0px 20px;
+    font-size: 35px;
+}
+h2{
+    text-align: center;
+}
+
+.one{
+    flex-grow: 3;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.one1{
+    width: 40%;
+    flex-grow: 3;
+    font-size: 25px;
+    padding: 20px;
+
+}
+.two{
+    flex-grow: 3;
+    padding: 20px;
+    margin-top: 20px;
+}
+.text{
+    font-size: 25px;
+    
+    text-align: center;
+}
+
+article{
+    display: flex;
+}
+@import "../utilities/color";
+
+.container-wrapper{
+    padding: 0;
+    margin: 0;
+}
+.wrap-texto{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
