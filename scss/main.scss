@@ -1,4 +1,7 @@
-@import "../scss/normalize/reset";
-@import "../scss/utilities/color";
-@import "../scss/general/header";
-@import "../scss/general/body;"
+
+@import"./utilities/color";
+@import"./normalize/reset";
+@import"./general/header";
+@import"./general/body";
+@import"./general/footer";
+@import "../scss/views/queries";

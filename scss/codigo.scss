@@ -1,3 +1,11 @@
+
+@import"./utilities/color";
+@import"./normalize/reset";
+@import"./general/header";
+@import"./general/body";
+@import"./general/footer";
+@import "../scss/views/queries";
+
 *{
     font-family: Verdana;
     margin: 0;
@@ -6,7 +14,7 @@
     box-sizing: border-box;
 }
 
-@import"../utilities/color";
+
 
 
 @media screen and (min-width: 720px ) {
@@ -48,7 +56,7 @@
     }
 }
 
-@import "../utilities/color";
+
 
 .soyunfooter{
     color: $primario;
@@ -62,7 +70,7 @@
     justify-content: center;
 }
 
-@import "../utilities/color";
+
 body{
     background-color: $primario;
     color: $secundario;
@@ -78,7 +86,7 @@ html {
     background-color: black;
 }
 
-@import "../utilities/color";
+
 
 header {
     background-color: $secundario;
@@ -107,7 +115,7 @@ header {
     }
 
 }
-@import "../utilities/color";
+
 
 .contacto{
     background: $sextiario;
@@ -120,7 +128,7 @@ a:hover{
     padding: 8px;
 }
 
-@import "../utilities/color";
+
 
 h1{
     text-align: center;
@@ -158,7 +166,7 @@ h2{
 article{
     display: flex;
 }
-@import "../utilities/color";
+
 
 .container-wrapper{
     padding: 0;
