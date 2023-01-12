@@ -90,32 +90,29 @@ html {
 
 header {
     background-color: $secundario;
-    
-
-    nav{
-        background-color: $terciario;
-    }
-
-    nav ul{
-        list-style-type: none;
-        display: flex;
-    }
-    nav ul li a{ 
-        display: block;
-        text-decoration: none;
-        color: $secundario;
-        text-align: center;
-        padding: 10px;
-        
-    }
-    
-    nav ul li a:hover{ 
-        background-color: $cuartiario;
-        
-    }
-
 }
 
+nav{
+    background-color: $terciario;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a{ 
+    display: block;
+    text-decoration: none;
+    color: $secundario;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav ul li a:hover{ 
+    background-color: $cuartiario;
+    
+}
 
 .contacto{
     background: $sextiario;
