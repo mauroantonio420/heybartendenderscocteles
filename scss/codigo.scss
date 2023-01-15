@@ -2,6 +2,8 @@
 @import "./views/queries";
 @import"./utilities/color";
 @import"./normalize/reset";
+@import"./layout/flex";
+@import"./layout/grid";
 @import"./general/header";
 @import"./general/body";
 @import"./general/footer";
@@ -18,7 +20,7 @@
 
 
 
-@media screen and (min-width: 720px ) {
+@media screen and (min-width: 719px ) {
     .navegacion{
     padding: 0; 
     justify-content: center;
