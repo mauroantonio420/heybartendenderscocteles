@@ -16,12 +16,12 @@ html {
     background-color:$secundario;
     font-size: 18px;
 }
-@mixin section{
+section{
     width: 100%;
     height: 100%;
     background-color: $backGroundColor;
 }
-@mixin items{
+.items{
     width: 350px;
     height: 450px;
 }

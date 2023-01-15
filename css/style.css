@@ -62,6 +62,15 @@ html {
   background-color: #FFFFFF;
   font-size: 18px; }
 
+section {
+  width: 100%;
+  height: 100%;
+  background-color: #000000; }
+
+.items {
+  width: 350px;
+  height: 450px; }
+
 .galeria-dos {
   width: 100%; }
 
@@ -132,6 +141,11 @@ html {
   background-color: white;
   font-size: 18px; }
 
+section {
+  width: 100%;
+  height: 100%;
+  background-color: black; }
+
 header {
   background-color: #FFFFFF; }
 
@@ -192,6 +206,10 @@ h2 {
 
 article {
   display: flex; }
+
+.items {
+  width: 350px;
+  height: 450px; }
 
 .container-wrapper {
   padding: 0;

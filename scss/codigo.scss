@@ -81,7 +81,7 @@ html {
     background-color:white;
     font-size: 18px;
 }
-@mixin section{
+section{
     width: 100%;
     height: 100%;
     background-color: black;
@@ -164,6 +164,12 @@ h2{
 article{
     display: flex;
 }
+
+.items{
+    width: 350px;
+    height: 450px;
+}
+
 
 
 .container-wrapper{
