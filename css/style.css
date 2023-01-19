@@ -122,17 +122,30 @@ div {
   .navegacion {
     padding: 0;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center; }
   article {
     flex-direction: column;
-    text-align: center; } }
+    text-align: center; }
+  p {
+    width: 100%; }
+    p img {
+      width: 100%; }
+    p .one {
+      flex-direction: column; }
+    p p {
+      width: 100%;
+      flex-direction: column; }
+    p .items {
+      flex-direction: column;
+      width: 100%;
+      margin: 2px; } }
 
 @media screen and (min-width: 720px) {
   .navegacion {
     padding: 0;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center; }
   article {
     flex-direction: column;

@@ -24,27 +24,48 @@
     .navegacion{
     padding: 0; 
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align:center;
     }
     article{
     flex-direction: column;
     text-align: center; 
     }
+    p{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        .one{
+            flex-direction: column;
+        }
+        p{
+            width: 100%;
+            flex-direction: column;
+        }
+        .items{
+            flex-direction: column;
+            width: 100%;
+            margin: 2px;
+        }
+    }
+    
 }
+
 
 
 @media screen and (min-width: 720px ) {
 .navegacion{
     padding: 0; 
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align:center;
     }
     article{
     flex-direction: column;
     text-align: center; 
     }
+    
 }
 
 @media screen and (min-width: 850px){
