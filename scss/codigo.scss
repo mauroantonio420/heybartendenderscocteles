@@ -31,23 +31,12 @@
     flex-direction: column;
     text-align: center; 
     }
-    p{
-        width: 100%;
-        img{
-            width: 100%;
-        }
-        .one{
-            flex-direction: column;
-        }
-        p{
-            width: 100%;
-            flex-direction: column;
-        }
-        .items{
-            flex-direction: column;
-            width: 100%;
-            margin: 2px;
-        }
+    .one{
+        flex-direction: column;
+    }
+    
+    .two{
+        flex-direction: column;
     }
     
 }
