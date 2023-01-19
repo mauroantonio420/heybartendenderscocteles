@@ -17,15 +17,35 @@ html {
     font-size: 18px;
 }
 section{
-    width: 100%;
-    height: 100%;
     background-color: $backGroundColor;
-}
-.items{
-    width: 350px;
-    height: 450px;
+    h3{
+        width: 100%;
+        color:$secundario ;
+        text-align: end;
+        line-height: 50px;
+    }
 }
 
+div.one{
+    width: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+div{
+    width: 50%;
+
+    img.items{
+        width: 95%;
+        
+        margin: 10px;
+    }
+
+}
+
+.one{
+    display: flex;
+    width: 50%;
+}
 
 @mixin body{
     width: 100%;

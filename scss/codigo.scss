@@ -1,5 +1,5 @@
 
-@import "./views/queries";
+
 @import"./utilities/color";
 @import"./normalize/reset";
 @import"./layout/flex";
@@ -188,3 +188,4 @@ article{
     margin: 0 auto;
 }
 
+@import "./views/queries";
