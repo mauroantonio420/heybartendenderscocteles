@@ -6,25 +6,55 @@
     .navegacion{
         padding: 0; 
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         text-align:center;
         }
         article{
+            width: 100%;
         flex-direction: column;
-        text-align: center; 
+        text-align: center;
         }
+            p{
+                flex-direction: column;
+                text-align: center;
+                line-height: 50px;
+            }
+    .one{
+        width: 100%;
+        flex-direction: column;
     }
+    
+
+    }
+    
+    .two{
+        flex-direction: column;
+    }
+    .items{
+        width: 100%;
+    }
+    
+.soyunfooter{
+    height: 100%;
+}
 
 @media screen and (min-width: 720px ) {
     .navegacion{
     padding: 0; 
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align:center;
     }
     article{
     flex-direction: column;
     text-align: center; 
+    }
+    .one{
+        flex-direction: column;
+    }
+    
+    .two{
+        flex-direction: column;
     }
 }
 

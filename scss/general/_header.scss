@@ -1,29 +1,62 @@
 @import "../utilities/color";
+header{
+    background-color: $secundario !important;
+}
+nav{
+    background-color: $terciario;
+
+    ul{
+        background-color: $terciario;
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        
+    li{
+        text-decoration: none;
+        a{
+            display: block;
+            color: $secundario;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+
+            &:hover{
+                background-color:$cuartiario;
+                }
+            }
+        }
+    }
+}
+
+
 
 header {
-    background-color: $secundario;
+    
     
 
     nav{
         background-color: $terciario;
-    }
 
-    nav ul{
-        list-style-type: none;
-        display: flex;
-    }
-    nav ul li a{ 
-        display: block;
-        text-decoration: none;
-        color: $secundario;
-        text-align: center;
-        padding: 10px;
-        
-    }
-    
-    nav ul li a:hover{ 
-        background-color: $cuartiario;
-        
-    }
+        ul{
+            background-color: $terciario;
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+            
+        li{
+            text-decoration: none;
+            a{
+                display: block;
+                color: $secundario;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px;
 
+                &:hover{
+                    background-color: $cuartiario;
+                }
+            }
+        }
+        }
+    }
 }

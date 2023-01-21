@@ -4,9 +4,11 @@
     background: $sextiario;
     border-radius: 35px;
     color: $secundario
-    
+
 }
-:a:hover{
-    background: $septiario;
-    padding: 8px;
+a{
+    &:hover{
+        background: $septiario;
+        padding: 8px;
+    }
 }

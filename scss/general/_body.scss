@@ -4,13 +4,14 @@
 
 body{
     background-color : $primario;
-    color: $primario;
-    .text{
-        font-size: 25px;
-        
-        text-align: center;
-    }
+    color: $secundario;
 }
+.text{
+    font-size: 25px;
+    
+    text-align: center;
+}
+
 html {
     color: $secundario;
     background-color:$secundario;
@@ -18,33 +19,24 @@ html {
 }
 section{
     background-color: $backGroundColor;
-    h3{
-        width: 100%;
-        color:$secundario ;
-        text-align: end;
-        line-height: 50px;
-    }
+    
 }
-
-div.one{
-    width: 50%;
-    line-height: 50px;
+h3{
+    width: 100%;
+    color:$secundario ;
     text-align: center;
+    line-height: 50px;
 }
-div{
-    width: 50%;
-
-    img.items{
-        width: 95%;
-        
-        margin: 10px;
-    }
-
-}
-
 .one{
     display: flex;
     width: 50%;
+    line-height: 50px;
+    text-align: center;
+    }
+
+.items{
+    width: 350px;
+    height: 450px;
 }
 
 @mixin body{
